@@ -1,0 +1,11 @@
+{
+    "editor.fontSize": 13,
+    "editor.tabSize": 4,
+    "files.exclude": {
+        "node_modules/": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.welcome.enabled": false
+}
