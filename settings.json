@@ -1,5 +1,7 @@
 {
     "editor.fontSize": 13,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
     "editor.tabSize": 4,
     "files.exclude": {
         "node_modules/": true
