@@ -1,4 +1,6 @@
 {
+    "csharpfixformat.style.braces.onSameLine": true,
+    "csharpfixformat.style.spaces.beforeParenthesis": false,
     "editor.codeLens": false,
     "editor.detectIndentation": true,
     "editor.fontSize": 13,
@@ -6,11 +8,10 @@
     "editor.renderWhitespace": "all",
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
-    "files.exclude": {
-        "node_modules/": true
-    },
+    "files.exclude": {"node_modules/": true},
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.iconTheme": "vscode-icons",
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": null,
     "workbench.welcome.enabled": false
 }
