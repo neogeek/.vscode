@@ -8,10 +8,12 @@
     "editor.renderWhitespace": "all",
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.showExpandedAbbreviation":"never",
     "files.exclude": {"node_modules/": true},
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": true,
-    "workbench.iconTheme": null,
+    "workbench.iconTheme": "vscode-icons",
     "workbench.welcome.enabled": false
 }
