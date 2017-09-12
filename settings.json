@@ -1,4 +1,7 @@
 {
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
     "csharpfixformat.style.braces.onSameLine": true,
     "csharpfixformat.style.spaces.beforeParenthesis": false,
     "editor.codeLens": false,
@@ -9,11 +12,20 @@
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "emmet.showAbbreviationSuggestions": false,
-    "emmet.showExpandedAbbreviation":"never",
-    "files.exclude": {"node_modules/": true},
+    "emmet.showExpandedAbbreviation": "never",
+    "files.associations": {
+        "*.jsx": "javascript"
+    },
+    "files.exclude": {
+        "node_modules/": true
+    },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": true,
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "workbench.colorTheme": "Splus",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.welcome.enabled": false
+    "workbench.startupEditor": "newUntitledFile"
 }
