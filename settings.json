@@ -21,6 +21,7 @@
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "prettier.eslintIntegration": true,
     "prettier.singleQuote": true,
