@@ -26,6 +26,6 @@
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
     "workbench.colorTheme": "Splus",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "vsicons.dontShowNewVersionMessage": true
 }
