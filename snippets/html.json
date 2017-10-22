@@ -15,6 +15,7 @@
             "<meta name=\"viewport\" content=\"initial-scale=1\">",
             "<title></title>",
             "<style>",
+            "",
             "html {",
             "    box-sizing: border-box;",
             "}",
