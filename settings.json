@@ -26,6 +26,5 @@
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
     "workbench.colorTheme": "Splus",
-    "workbench.startupEditor": "newUntitledFile",
-    "vsicons.dontShowNewVersionMessage": true
+    "workbench.startupEditor": "newUntitledFile"
 }
