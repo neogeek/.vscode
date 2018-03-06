@@ -1,9 +1,13 @@
 {
+    "[csharp]": {
+        "editor.formatOnSave": true
+    },
     "[javascript]": {
         "editor.formatOnSave": true
     },
-    "csharpfixformat.style.braces.onSameLine": true,
+    "csharpfixformat.style.braces.onSameLine": false,
     "csharpfixformat.style.spaces.beforeParenthesis": false,
+    "csharp.format.enable": false,
     "editor.codeLens": false,
     "editor.detectIndentation": true,
     "editor.fontSize": 13,
@@ -23,9 +27,21 @@
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
     "prettier.eslintIntegration": true,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
     "workbench.colorTheme": "Splus",
     "workbench.startupEditor": "newUntitledFile"
 }
