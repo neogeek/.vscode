@@ -2,12 +2,17 @@
     "[csharp]": {
         "editor.formatOnSave": true
     },
+    "[css]": {
+        "editor.formatOnSave": true
+    },
     "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
         "editor.formatOnSave": true
     },
     "csharpfixformat.style.braces.onSameLine": false,
     "csharpfixformat.style.spaces.beforeParenthesis": false,
-    "csharp.format.enable": false,
     "editor.codeLens": false,
     "editor.detectIndentation": true,
     "editor.fontSize": 13,
@@ -28,14 +33,8 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressUpdateNotice": true,
-        "suppressWelcomeNotice": false
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true
     },
     "prettier.eslintIntegration": true,
     "prettier.singleQuote": true,
