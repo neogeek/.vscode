@@ -27,7 +27,7 @@
     },
     "files.exclude": {
         "node_modules/": true,
-        "**/*.meta": true,
+        "**/*.meta": true
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
