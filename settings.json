@@ -26,7 +26,8 @@
         "*.jsx": "javascript"
     },
     "files.exclude": {
-        "node_modules/": true
+        "node_modules/": true,
+        "**/*.meta": true,
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
