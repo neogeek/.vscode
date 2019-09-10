@@ -1,47 +1,39 @@
 {
-    "[csharp]": {
-        "editor.formatOnSave": true
-    },
-    "[css]": {
-        "editor.formatOnSave": true
-    },
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "[json]": {
-        "editor.formatOnSave": true
-    },
-    "csharpfixformat.style.braces.onSameLine": false,
-    "csharpfixformat.style.spaces.beforeParenthesis": false,
-    "editor.codeLens": false,
-    "editor.detectIndentation": true,
-    "editor.fontSize": 13,
-    "editor.insertSpaces": true,
-    "editor.renderWhitespace": "all",
-    "editor.tabSize": 4,
-    "editor.wordWrap": "on",
-    "emmet.showAbbreviationSuggestions": false,
-    "emmet.showExpandedAbbreviation": "never",
-    "files.associations": {
-        "*.jsx": "javascript"
-    },
-    "files.exclude": {
-        "node_modules/": true,
-        "**/*.meta": true
-    },
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": true
-    },
-    "prettier.eslintIntegration": true,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "window.openFilesInNewWindow": "on",
-    "window.openFoldersInNewWindow": "on",
-    "workbench.colorTheme": "Splus",
-    "workbench.startupEditor": "newUntitledFile"
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeLens": false,
+  "editor.formatOnType": true,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 4,
+  "editor.wordWrap": "on",
+  "eslint.autoFixOnSave": true,
+  "files.associations": {
+    "*.jsx": "javascript"
+  },
+  "files.exclude": {
+    "node_modules/": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "tslint.autoFixOnSave": true,
+  "window.openFilesInNewWindow": "on",
+  "window.openFoldersInNewWindow": "on"
 }
