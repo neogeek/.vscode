@@ -33,7 +33,7 @@
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "tslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true,
   "window.openFilesInNewWindow": "on",
   "window.openFoldersInNewWindow": "on"
 }
