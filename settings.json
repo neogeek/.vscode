@@ -18,13 +18,15 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "editor.codeLens": false,
   "editor.formatOnType": true,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
   "editor.tabSize": 4,
   "editor.wordWrap": "on",
-  "eslint.autoFixOnSave": true,
   "files.associations": {
     "*.jsx": "javascript"
   },
@@ -33,7 +35,7 @@
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "prettier.eslintIntegration": true,
   "window.openFilesInNewWindow": "on",
-  "window.openFoldersInNewWindow": "on"
+  "window.openFoldersInNewWindow": "on",
+  "workbench.startupEditor": "newUntitledFile"
 }
